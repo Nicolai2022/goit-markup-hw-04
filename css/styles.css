@@ -421,8 +421,24 @@ img {
   /* margin-bottom: 30px; */
 }
 
+.clients-link-icon {
+  width: 106px;
+  height: 60px;
+}
+
+.container-clients {
+  display: flex;
+  align-items: center;
+}
+
 .clients-list {
   display: flex;
+}
+
+.clients-item {
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .footer {
@@ -477,9 +493,15 @@ img {
 /* cvg */
 
 .address-icon {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.address-icon-social {
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255, 0.1);
 }
 
 .address-item {
