@@ -101,6 +101,15 @@ img {
   color: var(--accent-color);
 }
 
+/* svg */
+
+.contact-link-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  /* fill: currentColor; */
+}
+
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
@@ -114,6 +123,12 @@ img {
 
 .nav-list .nav-link.current {
   color: var(--accent-color);
+}
+
+.list-icon {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .main-nav {
@@ -406,6 +421,10 @@ img {
   /* margin-bottom: 30px; */
 }
 
+.clients-list {
+  display: flex;
+}
+
 .footer {
   background-color: var(--hero-background-color);
   padding-top: 60px;
@@ -421,6 +440,16 @@ img {
   /* padding-bottom: 20px; */
   /* margin-top: 60px; */
   margin-bottom: 20px;
+}
+
+.footer-title {
+  margin-top: 0px;
+  color: var(--primery-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-liht {
@@ -443,6 +472,13 @@ img {
   font-style: normal;
   font-size: 14px;
   line-height: calc(14 / 16);
+}
+
+/* cvg */
+
+.address-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .address-item {
@@ -569,3 +605,62 @@ img {
 .portfolio {
   background-color: var(--primery-white-color);
 }
+
+/* 4 DZ */
+
+/* svg */
+
+.fiatures-icon {
+  background-color: var(--section-bg-color);
+  width: 70px;
+  height: 70px;
+}
+
+.team-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.clients-link-icon {
+  width: 106px;
+  height: 60px;
+}
+.container-clients {
+  display: flex;
+  align-items: center;
+}
+
+/* 
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/hero-img.jpg) */
+/* background-image: url(./images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+/* } */
+
+/* 
+.fiatures .fiatures-item {
+  display: block;
+  /* content: ''; */
+/* height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--section-bg-color);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+/* 
+.icon-antena::before {
+  background-image: url(../images/projectcard1.jpg);
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+/* } */
