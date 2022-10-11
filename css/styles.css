@@ -7,6 +7,7 @@
   --primery-bg-color: #f5f5f5;
   --logo-dark-color: #000000;
   --hero-background-color: #2f303a;
+  --social-primery-color: #afb1b8;
 }
 
 .body {
@@ -84,6 +85,7 @@ img {
   font-style: normal;
   font-size: 14px;
   line-height: calc(16 / 14);
+  fill: currentColor;
 }
 
 /* .nav-link:hover,
@@ -462,6 +464,10 @@ img {
   fill: var(--primery-white-color);
 }
 
+.social-link {
+  fill: var(--social-primery-color);
+}
+
 .team-item-icon {
   padding: 0;
   border: none;
@@ -576,6 +582,14 @@ img {
 
 /* cvg */
 
+.address-item {
+  font-size: 14px;
+}
+
+.address-item-margin {
+  margin-bottom: 9px;
+}
+
 .address-icon {
   padding: 0;
   border: none;
@@ -584,6 +598,7 @@ img {
   justify-content: center;
   width: 44px;
   height: 44px;
+  fill: var(--primery-white-color);
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
@@ -596,17 +611,9 @@ img {
     color: var(--primery-white-color);
 } */
 
-.address-icon-social {
+/* .address-icon-social {
   fill: currentColor;
-}
-
-.address-item {
-  font-size: 14px;
-}
-
-.address-item-margin {
-  margin-bottom: 9px;
-}
+} */
 
 /* .cards-list {
   background-color: var(--section-bg-color);
