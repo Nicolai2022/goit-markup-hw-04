@@ -483,6 +483,10 @@ img {
   text-transform: uppercase;
 }
 
+.footer-list-icon {
+  display: flex;
+}
+
 .logo-liht {
   color: var(--primery-white-color);
 }
