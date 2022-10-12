@@ -106,8 +106,6 @@ img {
 /* svg */
 
 .contact-link-icon {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
   /* fill: currentColor; */
 }
@@ -308,6 +306,7 @@ img {
 .fiatures-list .fiatures-item {
   width: 270px;
   margin-right: 30px;
+  /* gap: 30px; */
   /* background-color: tomato; */
 }
 
@@ -525,6 +524,7 @@ img {
 
 .container-box {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
