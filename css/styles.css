@@ -354,22 +354,24 @@ img {
 
 .about-list {
   display: flex;
+  gap: 30px;
   /* background-color: var(--section-bg-color); */
 }
 
-.about-item {
+/* .about-item {
   margin-right: 30px;
 }
 
 .about-item:nth-child(3n) {
   margin-right: 0;
-}
+} */
 
 .team {
   background-color: var(--section-bg-color);
 }
 .team-list {
   display: flex;
+  gap: 30px;
   /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px; */
@@ -382,13 +384,13 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-item {
+/* .team-item {
   margin-right: 30px;
 }
 
 .team-item:nth-child(4n) {
   margin-right: 0;
-}
+} */
 
 /* 
 .team-list .card-team-item {
@@ -650,15 +652,14 @@ img {
 .cards-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: -30px;
-  margin-right: -30px;
+  gap: 30px;
+  /* margin-bottom: -30px;
   /* background-color: teal; */
 }
 
 .cards-item {
   width: 370px;
   /* background-color: tomato; */
-  margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -674,11 +675,8 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 50px;
-  /* margin-bottom: 30px; */
+  gap: 8px;
   /* background-color: teal; */
-}
-.filter-item:not(:last-child) {
-  margin-right: 8px;
 }
 
 /* buttons портфоліо */
